@@ -1,5 +1,6 @@
 <?php
 
+require 'include/array_column.php';
 require 'include/ticket.php';
 require 'include/Attachments.php';
 require 'include/TicketSettings.php';
