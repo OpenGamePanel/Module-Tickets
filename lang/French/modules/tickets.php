@@ -91,7 +91,6 @@ define('attachment_too_large', "%s (%s) est plus gros que la taille maximale aut
 define('attachment_forbidden_type', "Le type de fichier de %s ne peut pas être envoyé.");
 define('attachment_directory_not_writable', "Impossible de sauvegarder la pièce jointe. Le dossier de destination n'est pas autorisé en écriture.");
 define('attachment_invalid_file_count', "La quantité de fichiers envoyés au serveur est incorrecte. Seulement un maximum de %s peut être envoyé");
-define('ticket_settings', "Paramètres des Tickets");
 define('ratings_enabled', "Notes");
 define('ratings_enabled_info', "Défini si les réponses d'évaluation doivent être autorisées.");
 define('attachments_enabled', "Pièces Jointes");

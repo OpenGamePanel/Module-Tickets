@@ -91,7 +91,6 @@ define('attachment_too_large', "%s (%s) é maior que o tamanho máximo permitido
 define('attachment_forbidden_type', "O tipo de arquivo de %s não pode ser carregado.");
 define('attachment_directory_not_writable', "Não foi possível salvar os arquivos anexados. O directório que permite guardar/salvar os seus arquivos especificados pode não conter as permissões correctas para salvar/guardar/modificar.");
 define('attachment_invalid_file_count', "A quantidade de arquivos enviados para o servidor foi inválida. Apenas um máximo de %s pode ser carregado");
-define('ticket_settings', "Configurações de Ticket");
 define('ratings_enabled', "Classificações");
 define('ratings_enabled_info', "Defina se as respostas de classificação devem ser permitidas.");
 define('attachments_enabled', "Anexos");
