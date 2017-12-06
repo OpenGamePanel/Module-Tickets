@@ -31,7 +31,7 @@ define('viewing_ticket', "Viewing Ticket");
 define('ticket_not_found', "The given ticket parameters don't match an existing ticket.");
 define('ticket_cant_read', "Insufficient permission to view ticket.");
 define('cant_view_ticket', "Unable to retrieve the ticket information.");
-define('ticket_id', "Ticket ID");
+define('ticket_id', "Jegy azonosító");
 define('service_id', "Szolgáltatás azonosító");
 define('ticket_submitted', "Ticket Submitted");
 define('submitter_info', "Beküldő adatai");
