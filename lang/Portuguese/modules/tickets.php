@@ -41,7 +41,7 @@ define('OGP_LANG_role', "Regras do Usuário ");
 define('OGP_LANG_ticket_submit_response', "Enviar resposta");
 define('OGP_LANG_ticket_close', "Fechar");
 define('OGP_LANG_no_ticket_replies', "Ticket sem resposta");
-define('OGP_LANG_no_tickets_submitted', "Não foram enviados bilhetes.");
+define('OGP_LANG_no_tickets_submitted', "Você ainda não enviou nenhum Tiket de Suporte");
 define('OGP_LANG_submit_ticket', "Enviar Ticket");
 define('OGP_LANG_ticket_service', "Serviço");
 define('OGP_LANG_ticket_message', "Messagem");
