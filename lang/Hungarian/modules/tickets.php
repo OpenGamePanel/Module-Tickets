@@ -22,12 +22,12 @@
  *
  */
 
-define('OGP_LANG_support_tickets', "Support Tickets");
+define('OGP_LANG_support_tickets', "Támogatási hibajegyek");
 define('OGP_LANG_ticket_subject', "Tárgy");
 define('OGP_LANG_ticket_status', "Státusz");
 define('OGP_LANG_ticket_updated', "Utolsó frissítés");
 define('OGP_LANG_ticket_options', "Opciók");
-define('OGP_LANG_viewing_ticket', "Viewing Ticket");
+define('OGP_LANG_viewing_ticket', "Hibajegy megnézése");
 define('OGP_LANG_ticket_not_found', "The given ticket parameters don't match an existing ticket.");
 define('OGP_LANG_ticket_cant_read', "Insufficient permission to view ticket.");
 define('OGP_LANG_cant_view_ticket', "Unable to retrieve the ticket information.");
@@ -62,7 +62,7 @@ define('OGP_LANG_ticket_admin_response', "Adminisztrátor válasza");
 define('OGP_LANG_ticket_customer_response', "Ügyfél válasza");
 define('OGP_LANG_ticket_invalid_page_num', "You have attempted to view a page number with no tickets!");
 define('OGP_LANG_ticket_is_closed', "This ticket is closed. You may reply to this ticket to reopen it.");
-define('OGP_LANG_reply', "Reply");
+define('OGP_LANG_reply', "Válasz");
 define('OGP_LANG_invalid_rating', "The rating received is not valid.");
 define('OGP_LANG_successfully_rated_response', "Successfully rated response.");
 define('OGP_LANG_failed_rating_response', "Failed to rate the response.");
@@ -70,7 +70,7 @@ define('OGP_LANG_attachment_not_all_parameters_sent', "Not all parameters have b
 define('OGP_LANG_requested_attachment_missing', "The requested attachment does not exist.");
 define('OGP_LANG_requested_attachment_missing_db', "The requested attachment does not exist in the database.");
 define('OGP_LANG_ratings_disabled', "Rating responses is not enabled.");
-define('OGP_LANG_attachments', "Attachments");
+define('OGP_LANG_attachments', "Mellékletek");
 define('OGP_LANG_add_file_attachment', "Add More");
 define('OGP_LANG_attachment_size_info', "Each selected file may be a maximum of %s");
 define('OGP_LANG_attachment_file_size_info', "A maximum of %s file(s) may be uploaded, %s each.");
@@ -91,17 +91,17 @@ define('OGP_LANG_attachment_too_large', "%s (%s) is larger than the maximum allo
 define('OGP_LANG_attachment_forbidden_type', "The file type of %s may not be uploaded.");
 define('OGP_LANG_attachment_directory_not_writable', "Unable to save the attached files. The specified save directory is not writable.");
 define('OGP_LANG_attachment_invalid_file_count', "The amount of files sent to the server was invalid. Only a maximum of %s may be uploaded");
-define('OGP_LANG_ratings_enabled', "Ratings");
+define('OGP_LANG_ratings_enabled', "Értékelések");
 define('OGP_LANG_ratings_enabled_info', "Set if rating responses should be allowed.");
-define('OGP_LANG_attachments_enabled', "Attachments");
+define('OGP_LANG_attachments_enabled', "Mellékletek");
 define('OGP_LANG_attachments_enabled_info', "Set if the attachment system should be enabled.");
-define('OGP_LANG_attachment_max_size', "Max File Size");
+define('OGP_LANG_attachment_max_size', "Max. fájlméret");
 define('OGP_LANG_attachment_max_size_info', "Sets the max file size for attachments.");
-define('OGP_LANG_attachment_limit', "Attachment Limit");
+define('OGP_LANG_attachment_limit', "Melléklet korlátozása");
 define('OGP_LANG_attachment_limit_info', "Sets how many files may be attached at once. 0 for no limit.");
 define('OGP_LANG_attachment_save_dir', "Attachment Upload Location");
 define('OGP_LANG_attachment_save_dir_info', "Sets where attachments should be uploaded. Ideally, outside of the public_html folder or direct access blocked.");
-define('OGP_LANG_attachment_extensions', "Attachment Extensions");
+define('OGP_LANG_attachment_extensions', "Melléklet kiterjesztések");
 define('OGP_LANG_attachment_extensions_info', "Sets the permitted extensions. Each extension should be separated by a comma.");
 define('OGP_LANG_show_php_ini', "Show Estimated INI Settings");
 define('OGP_LANG_settings_errors_occured', "The following errors occured when attempting to update the settings - not everything has been updated!");
@@ -110,4 +110,4 @@ define('OGP_LANG_invalid_unit', "Invalid unit type for Max Size setting. Expecti
 define('OGP_LANG_invalid_save_dir', "The specified save directory does not exist and can not be created.");
 define('OGP_LANG_invalid_save_dir_not_writable', "The specified save directory exists but is not writable.");
 define('OGP_LANG_invalid_extensions', "No attachment extensions have been specified.");
-define('OGP_LANG_update_settings', "Update Settings");
+define('OGP_LANG_update_settings', "Beállítások frissítése");
