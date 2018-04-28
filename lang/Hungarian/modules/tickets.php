@@ -24,7 +24,7 @@
 
 define('OGP_LANG_support_tickets', "Támogatási hibajegyek");
 define('OGP_LANG_ticket_subject', "Tárgy");
-define('OGP_LANG_ticket_status', "Státusz");
+define('OGP_LANG_ticket_status', "Állapot");
 define('OGP_LANG_ticket_updated', "Utolsó frissítés");
 define('OGP_LANG_ticket_options', "Opciók");
 define('OGP_LANG_viewing_ticket', "Hibajegy megnézése");

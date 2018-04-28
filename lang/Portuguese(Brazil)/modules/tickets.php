@@ -23,10 +23,10 @@
  */
 
 define('OGP_LANG_support_tickets', "Support Tickets");
-define('OGP_LANG_ticket_subject', "Subject");
+define('OGP_LANG_ticket_subject', "Assunto");
 define('OGP_LANG_ticket_status', "Status");
 define('OGP_LANG_ticket_updated', "Last Updated");
-define('OGP_LANG_ticket_options', "Options");
+define('OGP_LANG_ticket_options', "Opções");
 define('OGP_LANG_viewing_ticket', "Viewing Ticket");
 define('OGP_LANG_ticket_not_found', "The given ticket parameters don't match an existing ticket.");
 define('OGP_LANG_ticket_cant_read', "Insufficient permission to view ticket.");
@@ -35,7 +35,7 @@ define('OGP_LANG_ticket_id', "Ticket ID");
 define('OGP_LANG_service_id', "Service ID");
 define('OGP_LANG_ticket_submitted', "Ticket Submitted");
 define('OGP_LANG_submitter_info', "Submitter Info");
-define('OGP_LANG_name', "Name");
+define('OGP_LANG_name', "Nome");
 define('OGP_LANG_ip', "IP");
 define('OGP_LANG_role', "User Role");
 define('OGP_LANG_ticket_submit_response', "Submit Response");
