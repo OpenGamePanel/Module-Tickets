@@ -101,13 +101,18 @@ class Ticket
         $keys = array_keys($messages);
         $end = end($keys);
 
+        $count = count(array_filter($attachments, function($f) {
+            return is_null($f['reply_id']);
+        }));
+        
         foreach ($messages as $i => $message) {
             foreach ($attachments as $k => $v) {
-                $attachmentC = (is_null($v['reply_id']) ? count($v)-1 : 0);
 
                 if ($messages[$i]['reply_id'] == $v['reply_id']) {
                     $messages[$i]['attachments'][] = $v;
-                } elseif (is_null($v['reply_id']) && (!isset($messages[$end]['attachments']) || count($messages[$end]['attachments']) < $attachmentC)) {
+                }
+
+                if (is_null($v['reply_id']) && (!isset($messages[$end]['attachments']) || count($messages[$end]['attachments']) < $count)) {
                     $messages[$end]['attachments'][] = $v;
                 }
             }
@@ -250,7 +255,7 @@ class Ticket
     public function getAttachmentById($attachment_id, $tid)
     {
         $query = "SELECT original_name, unique_name FROM OGP_DB_PREFIXticket_attachments
-                    WHERE attachment_id = ".(INT)$attachment_id." AND ticket_id = ".(int)$tid;
+                    WHERE attachment_id = ".(int)$attachment_id." AND ticket_id = ".(int)$tid;
 
         $result = $this->db->resultQuery($query);
         return $result[0] ?: false;
