@@ -72,7 +72,7 @@ define('OGP_LANG_requested_attachment_missing_db', "المرفق المطلوب 
 define('OGP_LANG_ratings_disabled', "تقييم الردود غير مفعل");
 define('OGP_LANG_attachments', "مرفقات");
 define('OGP_LANG_add_file_attachment', "أضف المزيد");
-define('OGP_LANG_attachment_size_info', "Each selected file may be a maximum of %s");
+define('OGP_LANG_attachment_size_info', "قد يكون كل ملف محدد بحد أقصى من %s");
 define('OGP_LANG_attachment_file_size_info', "A maximum of %s file(s) may be uploaded, %s each.");
 define('OGP_LANG_attachment_allowed_extensions_info', "إضافات الملفات المسموح بها: %s");
 define('OGP_LANG_ticket_fix_before_submitting', "يرجى تصحيح الأخطاء التالية قبل إرسال التذكرة");
@@ -81,7 +81,7 @@ define('OGP_LANG_ticket_problem_with_attachments', "حدثت مشكلة في ا�
 define('OGP_LANG_ticket_attachment_invalid_extension', "%1  لا يحتوي على إضافة مسموح بها.");
 define('OGP_LANG_ticket_attachment_invalid_size', "%1 أكبر من حجم الملف المسموح به. %2 كحد أقصى!");
 define('OGP_LANG_ticket_max_file_elements', "قد لا توجد سوى %1 من مدخلات الملف كحد أقصى.");
-define('OGP_LANG_ticket_attachment_multiple_files', "One or more file inputs have multiple files selected.");
+define('OGP_LANG_ticket_attachment_multiple_files', "يحتوي ملف واحد أو أكثر من ملفات الإدخال على ملفات متعددة محددة");
 define('OGP_LANG_attachment_err_ini_size', "%s (%s) يتجاوز إعداد 'upload_max_filesize' setting.");
 define('OGP_LANG_attachment_err_partial', "%sتم تحميلها جزئيا فقط. ");
 define('OGP_LANG_attachment_err_no_tmp', "لا يوجد مجلد مؤقت لحفظ %s");
@@ -103,7 +103,7 @@ define('OGP_LANG_attachment_save_dir', "موقع تحميل المرفقات");
 define('OGP_LANG_attachment_save_dir_info', "Sets where attachments should be uploaded. Ideally, outside of the public_html folder or direct access blocked.");
 define('OGP_LANG_attachment_extensions', "ملحقات المرفقات");
 define('OGP_LANG_attachment_extensions_info', "Sets the permitted extensions. Each extension should be separated by a comma.");
-define('OGP_LANG_show_php_ini', "Show Estimated INI Settings");
+define('OGP_LANG_show_php_ini', "إظهار إعدادات INI المقدَّرة");
 define('OGP_LANG_settings_errors_occured', "The following errors occured when attempting to update the settings - not everything has been updated!");
 define('OGP_LANG_invalid_max_size', "قيمة غير صالحة لإعدادات الحجم الأقصى.");
 define('OGP_LANG_invalid_unit', "Invalid unit type for Max Size setting. Expecting KB, MB, GB, TB, or PB.");
