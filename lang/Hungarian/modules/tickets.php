@@ -27,7 +27,7 @@ define('OGP_LANG_ticket_subject', "Tárgy");
 define('OGP_LANG_ticket_status', "Állapot");
 define('OGP_LANG_ticket_updated', "Utolsó frissítés");
 define('OGP_LANG_ticket_options', "Opciók");
-define('OGP_LANG_viewing_ticket', "Hibajegy megnézése");
+define('OGP_LANG_viewing_ticket', "Hibajegy megtekintése");
 define('OGP_LANG_ticket_not_found', "Az adott ticket paraméterei nem egyeznek meg a meglévő tickettel.");
 define('OGP_LANG_ticket_cant_read', "A ticket megtekintése megtagadva.");
 define('OGP_LANG_cant_view_ticket', "Nem sikerült lekérni a ticket információt.");
