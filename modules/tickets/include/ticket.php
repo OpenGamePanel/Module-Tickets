@@ -48,6 +48,25 @@ class Ticket
         return (!is_array($result) ? 0 : $result[0]['ticketCount']);
     }
 
+    public function notificationCount($ticketsFor = null, $status = 0)
+    {
+        $query = "SELECT COUNT(1) as ticketCount FROM OGP_DB_PREFIXtickets a WHERE a.status = ".(int)$status." ";
+
+        if ($ticketsFor !== null) {
+            $query .= "AND (a.user_id = ".(int)$ticketsFor." OR a.parent_id = ".(int)$ticketsFor." ";
+            
+            if ($this->db->isSubUser($ticketsFor)) {
+                $result = $this->db->resultQuery("SELECT users_parent FROM OGP_DB_PREFIXusers WHERE user_id = ".(int)$ticketsFor);
+                $query .= "OR a.parent_id = ".(int)$result[0]['users_parent'].")";
+            } else {
+                $query .= ")";
+            }
+        }
+        
+        $result = $this->db->resultQuery($query);
+        return (!is_array($result) ? 0 : $result[0]['ticketCount']);
+    }
+
     public function getTicket($tid, $uid)
     {
         $query = "SELECT a.tid, a.uid, a.user_id, a.user_ip, a.subject, a.status, a.service_id, a.created_at, a.last_updated,

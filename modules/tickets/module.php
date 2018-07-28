@@ -24,7 +24,7 @@
 
 $module_title = "Tickets";
 $module_version = "1.0a";
-$db_version = 1;
+$db_version = 2;
 $module_required = false;
 $module_menus = array(
 					array(
@@ -102,4 +102,8 @@ $install_queries[2] = array(
 	"INSERT INTO `".OGP_DB_PREFIX."ticket_settings` (setting_name, setting_value) VALUES ('attachment_limit', '5')",
 	"INSERT INTO `".OGP_DB_PREFIX."ticket_settings` (setting_name, setting_value) VALUES ('attachment_save_dir', '".__DIR__ . '/uploads' ."')",
 	"INSERT INTO `".OGP_DB_PREFIX."ticket_settings` (setting_name, setting_value) VALUES ('attachment_extensions', 'jpg, gif, jpeg, jpg, png, pdf, txt, sql, zip')",
+);
+
+$install_queries[3] = array(
+	"INSERT INTO `".OGP_DB_PREFIX."ticket_settings` (setting_name, setting_value) VALUES ('notifications_enabled', true)",
 );

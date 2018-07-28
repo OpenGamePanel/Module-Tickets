@@ -18,12 +18,14 @@ function exec_ogp_module()
 
         $ratings_enabled = (int)$_POST['ratings_enabled'];
         $attachments_enabled = (int)$_POST['attachments_enabled'];
+        $notifications_enabled = (int)$_POST['notifications_enabled'];
         $attachment_limit = (int)$_POST['attachment_limit'];
         $attachment_extensions = trim($_POST['attachment_extensions']);
         $extensions = splitExtensions($attachment_extensions);
 
         $fields['ratings_enabled'] = ($ratings_enabled >= 1 ? 1 : 0);
         $fields['attachments_enabled'] = ($attachments_enabled >= 1 ? 1 : 0);
+        $fields['notifications_enabled'] = ($notifications_enabled >= 1 ? 1 : 0);
         $fields['attachment_limit'] = $attachment_limit;
 
         if (!is_numeric(substr($_POST['attachment_max_size'], 0, -2))) {
@@ -65,6 +67,7 @@ function exec_ogp_module()
 
     $form->add_field('on_off', 'ratings_enabled', $settings['ratings_enabled']);
     $form->add_field('on_off', 'attachments_enabled', $settings['attachments_enabled']);
+    $form->add_field('on_off', 'notifications_enabled', $settings['notifications_enabled']);
     $form->add_field('string', 'attachment_max_size', bytesTo($settings['attachment_max_size']));
     $form->add_field('string', 'attachment_limit', $settings['attachment_limit']);
     $form->add_field('string', 'attachment_save_dir', $settings['attachment_save_dir']);
