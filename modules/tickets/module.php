@@ -47,7 +47,7 @@ $install_queries[0] = array(
 	"DROP TABLE IF EXISTS `".OGP_DB_PREFIX."ticket_settings`",
 	"DROP TABLE IF EXISTS `".OGP_DB_PREFIX."tickets`",
 
-	"CREATE TABLE `".OGP_DB_PREFIX."tickets` (
+	"CREATE TABLE IF NOT EXISTS `".OGP_DB_PREFIX."tickets` (
 		`tid` int NOT NULL AUTO_INCREMENT,
 		`uid` varchar(32) NOT NULL UNIQUE,
 		`user_id` int NOT NULL,
@@ -62,7 +62,7 @@ $install_queries[0] = array(
 		PRIMARY KEY (`tid`)
 	);",
 
-	"CREATE TABLE `".OGP_DB_PREFIX."ticket_messages` (
+	"CREATE TABLE IF NOT EXISTS `".OGP_DB_PREFIX."ticket_messages` (
 		`reply_id` int NOT NULL AUTO_INCREMENT,
 		`ticket_id` int NOT NULL,
 		`user_id` int NOT NULL,
@@ -78,7 +78,7 @@ $install_queries[0] = array(
 );
 
 $install_queries[1] = array(
-	"CREATE TABLE `".OGP_DB_PREFIX."ticket_attachments` (
+	"CREATE TABLE IF NOT EXISTS `".OGP_DB_PREFIX."ticket_attachments` (
 		`attachment_id` int NOT NULL AUTO_INCREMENT,
 		`ticket_id` int NOT NULL,
 		`reply_id` int,
@@ -89,7 +89,7 @@ $install_queries[1] = array(
 );
 
 $install_queries[2] = array(
-	"CREATE TABLE `".OGP_DB_PREFIX."ticket_settings` (
+	"CREATE TABLE IF NOT EXISTS `".OGP_DB_PREFIX."ticket_settings` (
 		`id` INT NOT NULL AUTO_INCREMENT,
 		`setting_name` varchar(32) NOT NULL UNIQUE,
 		`setting_value` TEXT NOT NULL,
