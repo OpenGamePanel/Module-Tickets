@@ -112,4 +112,4 @@ define('OGP_LANG_invalid_save_dir_not_writable', "The specified save directory e
 define('OGP_LANG_invalid_extensions', "No attachment extensions have been specified.");
 define('OGP_LANG_update_settings', "Update Settings");
 define('OGP_LANG_notifications_enabled', "Notifications");
-define('OGP_LANG_notifications_enabled_info', "Allow the user/admin to see if they've got a ticket awaiting reply.");
+define('OGP_LANG_notifications_enabled_info', "Allow the user/admin to see if they have got a ticket awaiting reply.");
