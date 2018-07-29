@@ -24,7 +24,7 @@
 
 $module_title = "Tickets";
 $module_version = "1.0a";
-$db_version = 2;
+$db_version = 3;
 $module_required = false;
 $module_menus = array(
 					array(
@@ -96,14 +96,14 @@ $install_queries[2] = array(
 		PRIMARY KEY (`id`)
 	);",
 	
-	"INSERT INTO `".OGP_DB_PREFIX."ticket_settings` (setting_name, setting_value) VALUES ('ratings_enabled', true)",
-	"INSERT INTO `".OGP_DB_PREFIX."ticket_settings` (setting_name, setting_value) VALUES ('attachments_enabled', true)",
-	"INSERT INTO `".OGP_DB_PREFIX."ticket_settings` (setting_name, setting_value) VALUES ('attachment_max_size', '52428800')",
-	"INSERT INTO `".OGP_DB_PREFIX."ticket_settings` (setting_name, setting_value) VALUES ('attachment_limit', '5')",
-	"INSERT INTO `".OGP_DB_PREFIX."ticket_settings` (setting_name, setting_value) VALUES ('attachment_save_dir', '".__DIR__ . '/uploads' ."')",
-	"INSERT INTO `".OGP_DB_PREFIX."ticket_settings` (setting_name, setting_value) VALUES ('attachment_extensions', 'jpg, gif, jpeg, jpg, png, pdf, txt, sql, zip')",
+	"INSERT INTO `".OGP_DB_PREFIX."ticket_settings` (setting_name, setting_value) VALUES ('ratings_enabled', true) ON DUPLICATE KEY UPDATE `setting_name` = 'ratings_enabled', `setting_value` = true",
+	"INSERT INTO `".OGP_DB_PREFIX."ticket_settings` (setting_name, setting_value) VALUES ('attachments_enabled', true) ON DUPLICATE KEY UPDATE `setting_name` = 'attachments_enabled', `setting_value` = true",
+	"INSERT INTO `".OGP_DB_PREFIX."ticket_settings` (setting_name, setting_value) VALUES ('attachment_max_size', '52428800') ON DUPLICATE KEY UPDATE `setting_name` = 'attachment_max_size', `setting_value` = '52428800'",
+	"INSERT INTO `".OGP_DB_PREFIX."ticket_settings` (setting_name, setting_value) VALUES ('attachment_limit', '5') ON DUPLICATE KEY UPDATE `setting_name` = 'attachment_limit', `setting_value` = '5'",
+	"INSERT INTO `".OGP_DB_PREFIX."ticket_settings` (setting_name, setting_value) VALUES ('attachment_save_dir', '".__DIR__ . '/uploads' ."') ON DUPLICATE KEY UPDATE `setting_name` = 'attachment_save_dir', `setting_value` = '".__DIR__ . '/uploads' ."'",
+	"INSERT INTO `".OGP_DB_PREFIX."ticket_settings` (setting_name, setting_value) VALUES ('attachment_extensions', 'jpg, gif, jpeg, jpg, png, pdf, txt, sql, zip') ON DUPLICATE KEY UPDATE `setting_name` = 'attachment_extensions', `setting_value` = 'jpg, gif, jpeg, jpg, png, pdf, txt, sql, zip'",
 );
 
 $install_queries[3] = array(
-	"INSERT INTO `".OGP_DB_PREFIX."ticket_settings` (setting_name, setting_value) VALUES ('notifications_enabled', true)",
+	"INSERT INTO `".OGP_DB_PREFIX."ticket_settings` (setting_name, setting_value) VALUES ('notifications_enabled', true) ON DUPLICATE KEY UPDATE `setting_name` = 'notifications_enabled', `setting_value` = true",
 );
