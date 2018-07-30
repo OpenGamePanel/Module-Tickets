@@ -111,3 +111,5 @@ define('OGP_LANG_invalid_save_dir', "The specified save directory does not exist
 define('OGP_LANG_invalid_save_dir_not_writable', "The specified save directory exists but is not writable.");
 define('OGP_LANG_invalid_extensions', "No attachment extensions have been specified.");
 define('OGP_LANG_update_settings', "Beállítások frissítése");
+define('OGP_LANG_notifications_enabled', "Notifications");
+define('OGP_LANG_notifications_enabled_info', "Allow the user/admin to see if they have got a ticket awaiting reply.");

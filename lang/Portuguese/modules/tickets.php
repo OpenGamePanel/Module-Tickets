@@ -111,3 +111,5 @@ define('OGP_LANG_invalid_save_dir', "O directório de salvação especificado n�
 define('OGP_LANG_invalid_save_dir_not_writable', "O directório de salvação especificado existe, mas não pode ser gravado.");
 define('OGP_LANG_invalid_extensions', "Nenhuma extensão de anexo foi especificada.");
 define('OGP_LANG_update_settings', "Actualizar configurações");
+define('OGP_LANG_notifications_enabled', "Notifications");
+define('OGP_LANG_notifications_enabled_info', "Allow the user/admin to see if they have got a ticket awaiting reply.");

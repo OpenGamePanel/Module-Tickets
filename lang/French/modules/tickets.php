@@ -111,3 +111,5 @@ define('OGP_LANG_invalid_save_dir', "Le dossier de sauvegarde spécifié n'exist
 define('OGP_LANG_invalid_save_dir_not_writable', "Le dossier de sauvegarde spécifié existe mais n'est pas autorisé en écriture..");
 define('OGP_LANG_invalid_extensions', "Aucune extension de pièce jointe n'a été spécifiée.");
 define('OGP_LANG_update_settings', "Enregistrer les Paramètres");
+define('OGP_LANG_notifications_enabled', "Notifications");
+define('OGP_LANG_notifications_enabled_info', "Permet à l&apos;utilisateur/admin de voir s&apos;il a un ticket en attente de réponse.");

@@ -111,3 +111,5 @@ define('OGP_LANG_invalid_save_dir', "El directorio de guardado especificado no e
 define('OGP_LANG_invalid_save_dir_not_writable', "El directorio de guardado especificado existe, pero no tiene permiso de escritura.");
 define('OGP_LANG_invalid_extensions', "No se especificaron extensiones de archivo.");
 define('OGP_LANG_update_settings', "Actualizar Configuración");
+define('OGP_LANG_notifications_enabled', "Notificaciones");
+define('OGP_LANG_notifications_enabled_info', "Mostrar una notificación en el botón del menu si el usuario o el administrador tiene peticiones de soporte esperando por una respuesta.");
