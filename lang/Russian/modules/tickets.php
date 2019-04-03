@@ -22,12 +22,12 @@
  *
  */
 
-define('OGP_LANG_support_tickets', "Support Tickets");
-define('OGP_LANG_ticket_subject', "Subject");
-define('OGP_LANG_ticket_status', "Status");
-define('OGP_LANG_ticket_updated', "Last Updated");
-define('OGP_LANG_ticket_options', "Options");
-define('OGP_LANG_viewing_ticket', "Viewing Ticket");
+define('OGP_LANG_support_tickets', "Тех.Поддержка");
+define('OGP_LANG_ticket_subject', "Тема");
+define('OGP_LANG_ticket_status', "Статус");
+define('OGP_LANG_ticket_updated', "Последнее сообщение");
+define('OGP_LANG_ticket_options', "Настройки");
+define('OGP_LANG_viewing_ticket', "Просмотр запроса");
 define('OGP_LANG_ticket_not_found', "The given ticket parameters don't match an existing ticket.");
 define('OGP_LANG_ticket_cant_read', "Insufficient permission to view ticket.");
 define('OGP_LANG_cant_view_ticket', "Unable to retrieve the ticket information.");
@@ -44,7 +44,7 @@ define('OGP_LANG_no_ticket_replies', "No Ticket Replies");
 define('OGP_LANG_no_tickets_submitted', "No Tickets have been submitted.");
 define('OGP_LANG_submit_ticket', "Submit Ticket");
 define('OGP_LANG_ticket_service', "Service");
-define('OGP_LANG_ticket_message', "Message");
+define('OGP_LANG_ticket_message', "Сообщение");
 define('OGP_LANG_ticket_errors_occured', "The following errors occured when submitting your ticket");
 define('OGP_LANG_no_ticket_subject', "No Ticket Subject");
 define('OGP_LANG_invalid_ticket_subject_length', "Invalid Subject Length (4 to 64 characters)");
