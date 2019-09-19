@@ -111,5 +111,5 @@ define('OGP_LANG_invalid_save_dir', "لم يتم العثور على المسا�
 define('OGP_LANG_invalid_save_dir_not_writable', "المسار المحدد للحفظ موجود، لكن لا يمكن الكتابة فيه.");
 define('OGP_LANG_invalid_extensions', "لم يتم تحديد أي امتدادات لملفات المرفقات.");
 define('OGP_LANG_update_settings', "إعدادات التحديث");
-define('OGP_LANG_notifications_enabled', "Notifications");
-define('OGP_LANG_notifications_enabled_info', "Allow the user/admin to see if they have got a ticket awaiting reply.");
+define('OGP_LANG_notifications_enabled', "إشعارات");
+define('OGP_LANG_notifications_enabled_info', "اسمح للمستخدم / المسؤول لمعرفة ما إذا كان لديه تذكرة في انتظار الرد.");
