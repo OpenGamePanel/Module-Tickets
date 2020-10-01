@@ -80,9 +80,9 @@ define('OGP_LANG_ticket_fix_before_replying', "אנה תקן את השגיאות
 define('OGP_LANG_ticket_problem_with_attachments', "הייתה בעיה עם הקבצים() שצרפת");
 define('OGP_LANG_ticket_attachment_invalid_extension', "%1 לא מכיל הרחבה מאושרת.");
 define('OGP_LANG_ticket_attachment_invalid_size', "%1 גדול מ גודל הקובץ המותר. מקסימום %2!");
-define('OGP_LANG_ticket_max_file_elements', "Only a maximum of %1 file inputs may exist.");
-define('OGP_LANG_ticket_attachment_multiple_files', "One or more file inputs have multiple files selected.");
-define('OGP_LANG_attachment_err_ini_size', "%s (%s) exceeds the 'upload_max_filesize' setting.");
+define('OGP_LANG_ticket_max_file_elements', "רק כניסות של קובץ% 1 עשויות להתקיים.");
+define('OGP_LANG_ticket_attachment_multiple_files', "בכניסה לקובץ אחד או יותר נבחר מספר קבצים.");
+define('OGP_LANG_attachment_err_ini_size', "%s(%s) חורג מהגדרת upload_max_filesize' setting.");
 define('OGP_LANG_attachment_err_partial', "%s was only partially uploaded.");
 define('OGP_LANG_attachment_err_no_tmp', "No tmp directory exists to save %s");
 define('OGP_LANG_attachment_err_cant_write', "לא יכול לכתוב %s אל הדיסק");
