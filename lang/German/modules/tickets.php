@@ -89,15 +89,15 @@ define('OGP_LANG_attachment_err_cant_write', "Kann %s nicht auf Datenträger sch
 define('OGP_LANG_attachment_err_extension', "An extension stopped the upload of %s. Review your logs.");
 define('OGP_LANG_attachment_too_large', "%s (%s) is larger than the maximum allowed size of %s!");
 define('OGP_LANG_attachment_forbidden_type', "The file type of %s may not be uploaded.");
-define('OGP_LANG_attachment_directory_not_writable', "Unable to save the attached files. The specified save directory is not writable.");
+define('OGP_LANG_attachment_directory_not_writable', "Die angehängten Dateien können nicht gespeichert werden. Das angegebene Verzeichnis ist nicht beschreibbar.");
 define('OGP_LANG_attachment_invalid_file_count', "The amount of files sent to the server was invalid. Only a maximum of %s may be uploaded");
 define('OGP_LANG_ratings_enabled', "Bewertungen");
 define('OGP_LANG_ratings_enabled_info', "Lege fest, ob Bewertungsantworten zulässig sein sollen.");
 define('OGP_LANG_attachments_enabled', "Anhänge");
 define('OGP_LANG_attachments_enabled_info', "Set if the attachment system should be enabled.");
-define('OGP_LANG_attachment_max_size', "Max File Size");
-define('OGP_LANG_attachment_max_size_info', "Sets the max file size for attachments.");
-define('OGP_LANG_attachment_limit', "Attachment Limit");
+define('OGP_LANG_attachment_max_size', "Max. Dateigröße");
+define('OGP_LANG_attachment_max_size_info', "Setze die max. Größe für Anhänge.");
+define('OGP_LANG_attachment_limit', "Anhang Limit");
 define('OGP_LANG_attachment_limit_info', "Sets how many files may be attached at once. 0 for no limit.");
 define('OGP_LANG_attachment_save_dir', "Attachment Upload Location");
 define('OGP_LANG_attachment_save_dir_info', "Sets where attachments should be uploaded. Ideally, outside of the public_html folder or direct access blocked.");
@@ -110,6 +110,6 @@ define('OGP_LANG_invalid_unit', "Invalid unit type for Max Size setting. Expecti
 define('OGP_LANG_invalid_save_dir', "The specified save directory does not exist and can not be created.");
 define('OGP_LANG_invalid_save_dir_not_writable', "The specified save directory exists but is not writable.");
 define('OGP_LANG_invalid_extensions', "No attachment extensions have been specified.");
-define('OGP_LANG_update_settings', "Update Settings");
-define('OGP_LANG_notifications_enabled', "Notifications");
+define('OGP_LANG_update_settings', "Einstellungen aktualisieren");
+define('OGP_LANG_notifications_enabled', "Benachrichtigungen");
 define('OGP_LANG_notifications_enabled_info', "Allow the user/admin to see if they have got a ticket awaiting reply.");
