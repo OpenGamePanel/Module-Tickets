@@ -52,7 +52,7 @@ function exec_ogp_module()
     $encoding = new finfo(FILEINFO_MIME_ENCODING);
 
     header('Content-Type: '.$mime->file($onDiskName));
-    header('Content-Transfer-Encoding: '.$mime->file($encoding));
+    header('Content-Transfer-Encoding: '.$encoding->file($onDiskName));
     header('Content-disposition: attachment; filename="'.basename($originalName).'"');
     readfile($onDiskName);
 }
